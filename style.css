@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    row-gap: 1rem;
+}
+
+/*nav bölümü*/
+nav{
+    display: flex;
+    flex-direction: column;
+}
+nav > a{margin: 1rem auto 1rem auto;}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+nav > ul > li > a{color: black; text-decoration: none; text-transform: uppercase;}
+
+/*main bölümü*/
+main{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 1rem;
+}
+
+.up{
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+.up > img{width: 100%; height: 75%;}
+
+.down{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#before-location{margin: 0 auto 0 auto;}
+#now-location{margin: 0 auto 0 auto;}
+#after-location{margin: 0 auto 0 auto;}
