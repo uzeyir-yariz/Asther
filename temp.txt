@@ -1,0 +1,24 @@
+<footer>
+        <p>copyright by <a href="#">uzeyir-yariz</a></p>
+        
+        <!--
+            <div>
+                <a href="#">by <a href="">uzeyir-yariz</a></a>
+                <a href="#">detaylar</a>
+            </div>
+
+        <div>
+            <img src="" alt="footer resim">
+            <p>açıklama.............</p>
+        </div>
+        
+        <div>
+            <p>sosyal ağlar</p>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">linkedin</a></li>
+            </ul>
+        </div>
+        -->
+    </footer>

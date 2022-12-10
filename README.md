@@ -4,7 +4,10 @@
 
 ---
 
-## meydan okuma kurallar
+### css meydan okuma kurallar
 
-- `display: flex;` `justify-content: //;` gibi özellikler ***kullanılmayacak***
-- `display: inline;` `display: block;` gibi özellikler    ***kullanılabilir***
+|zero point|arasında |Pinnacle |sıralama|
+|----------|---------|---------|--------|
+|0         |    >    |   150   |1.      |
+|150       |    >    |   200   |2.      |
+|200       |    >    |   300   |3.      |
