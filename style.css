@@ -55,3 +55,19 @@ main{
 }
 .down > article > h4{text-transform: uppercase;}
 .down > article > img{height: 80%; width: 90%;}
+
+/*footer bölümü*/
+footer{
+    position: absolute; /*>=bağlantı=<*/ bottom: 0; left: 0; right: 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social > a, footer > p > a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
